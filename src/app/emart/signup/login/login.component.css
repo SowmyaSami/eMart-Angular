@@ -1,0 +1,163 @@
+body{
+	margin:0px;
+	background-color: #000;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.login-section{
+	width:30%;
+	margin:0 auto;
+	margin-top:100px;
+	position: relative;
+	border:2px solid rgb(221, 171, 35);
+	z-index: 1;
+}
+.login-headding{
+	background-color: rgb(221, 171, 35);
+	text-align: center;
+	padding:20px 0px 20px 0px;	
+}
+.login-headding img{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	margin:-75px 0px 10px 0px;
+	border:2px solid rgb(113, 76, 155);
+}
+.login-headding h1{
+	margin:0px;
+	color:#fff;
+	font-size:30px;
+}
+.form-part{
+	padding:20px 20px 10px;
+	background-color:#EBEBEB;
+}
+input[type=text],[type=password]{
+    width: 100%;
+    padding:10px 20px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input:focus{
+	border:1px solid  rgb(221, 171, 35);
+	transition:0.5s;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(221, 171, 35);
+    color: white;
+    padding: 10px 20px;
+    margin:10px 0;
+    border: none;
+    cursor: pointer;
+    font-size:18px;
+}
+.clearfix{
+	padding: 10px 0px;
+}
+.form-part p{
+	margin: 0px;
+	text-align: center;
+	margin-bottom:10px;
+}
+.form-part p a,.clearfix a{
+	text-decoration: none;
+	color:#0093D1;
+}
+.form-part p a{
+	font-size:18px;
+}
+.form-part span{
+	font-size:13px;
+	color:#525252;
+}
+.star{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.75);
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.75);
+}
+@media (min-width:320px) and (max-width:640px){
+	.login-section{
+		width:80%;
+	}	
+}
+@media (min-width:768px) and (max-width:1024px){
+	.login-section{
+		width:80%;
+	}	
+}
+
+
+.bg-img {
+    
+    background-image: url("https://images.all-free-download.com/images/graphicthumb/rippled_wall_background_01_hd_pictures_169887.jpg");
+ 
+    /*min-height: 380px;  */
+ 
+   /* Center and scale the image nicely */
+    /* background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;  */
+   
+   /* Needed to position the navbar */
+    position: relative;
+}
+ 
+ .navbar-trans {
+   background: transparent;
+}
+
+.logo
+{
+    height: 40px;
+    margin: 10PX 10PX;
+}
+.search-box
+{
+  display: inline-flex;
+  width:30% !important;
+}
+
+
+
+
+.carousel-inner img {
+  width: 10%;
+  height:10%;
+}
+
+
+.nav-link[data-toggle].collapsed:before {
+  content: " ▾";
+}
+.nav-link[data-toggle]:not(.collapsed):before {
+  content: " ▴";
+}
+
+.bgs-img {
+    
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfar-Ki4dONT_U_3_XuY91MAek2S0Dpl7vGQoS_UOnOdw6EzYk");
+
+  /*min-height: 380px;  */
+
+ /* Center and scale the image nicely */
+  /* background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;  */
+ 
+ /* Needed to position the navbar */
+  position: relative;
+}

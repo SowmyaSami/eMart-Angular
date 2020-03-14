@@ -1,0 +1,185 @@
+<div class="bg-img">
+    <div class="navbar-trans">
+
+        <nav class="navbar navbar-expand-md navbar-dark nav" style="font-weight: bold;">
+            <img class="logo"
+                src="https://previews.123rf.com/images/arbuzu/arbuzu1502/arbuzu150200041/36353973-letter-e-logo-icon-design-template-elements.jpg">
+            <!-- <input type="text" class="form-control">
+            <span class="input-group-text"> <i class="material-icons">search</i></span> -->
+
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapse-nav-bar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapse-nav-bar">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" *ngIf="!getLoggedIn()">
+                        <a class="nav-link  text-white" routerLink="/login">Login</a>
+                    </li>
+                    <li class="nav-item" *ngIf="getLoggedIn()">
+                        <a class="nav-link  text-white" routerLink="/item-list">Item List</a>
+                    </li>
+                    <li class="nav-item" *ngIf="getLoggedIn()">
+                        <a class="nav-link  text-white" routerLink="/cart-list">Cart</a>
+                    </li>
+                    <li class="nav-item" *ngIf="getLoggedIn()">
+                        <a class="nav-link  text-white" routerLink="/bill-list">Purchase history</a>
+                    </li>
+                    <li class="nav-item" *ngIf="getLoggedIn()">
+                        <a class="nav-link  text-white" routerLink="/logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+</div>
+<div class="sidebar">
+    <div class="bgs-img">
+        <div class="navbar-trans">
+    <ul class="nav flex-column flex-nowrap overflow-hidden">
+        <li class="nav-item ">
+            <a class="nav-link text-truncate" href="#"><i class="fa fa-home"></i> <span
+                    class="d-none d-sm-inline">eMart</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link collapsed text-truncate" href="#submenu1" data-toggle="collapse"
+                data-target="#submenu1"><i class="fa fa-table"></i> <span
+                    class="d-none d-sm-inline">SALE</span></a>
+            <div class="collapse" id="submenu1" aria-expanded="false">
+                <ul class="flex-column pl-2 nav">
+                    <li class="nav-item"><a class="nav-link py-0" href="#"><span>Upto 20%</span></a></li>
+                    <li class="nav-item">
+                </ul>
+            </div>
+        <p>CATEGORY</p>
+        <a class="nav-link collapsed text-truncate" href="#submenu2" data-toggle="collapse"
+            data-target="#submenu2"><i class="fa fa-table"></i> <span
+                class="d-none d-sm-inline">ELECTRONICS</span></a>
+        <div class="collapse" id="submenu2" aria-expanded="false">
+            <a class="nav-link collapsed py-1" href="#submenu1sub1sub2" data-toggle="collapse"
+                data-target="#submenu1sub1"><span>Mobiles</span></a>
+            <a class="nav-link collapsed py-1" href="#submenu1sub1sub2" data-toggle="collapse"
+                data-target="#submenu1sub1"><span>Laptops</span></a>
+        </div>
+        <a class="nav-link collapsed text-truncate" href="#submenu3" data-toggle="collapse"
+            data-target="#submenu3"><i class="fa fa-table"></i> <span
+                class="d-none d-sm-inline">FASHION</span></a>
+        <div class="collapse" id="submenu3" aria-expanded="false">
+            <a class="nav-link collapsed py-1" href="#submenu2sub1sub2" data-toggle="collapse"
+                data-target="#submenu1sub1"><span>Western Wear</span></a>
+            <a class="nav-link collapsed py-1" href="#submenu2sub1sub2" data-toggle="collapse"
+                data-target="#submenu2sub1"><span>Ethnic Wear</span></a>
+        </div>
+        <a class="nav-link collapsed text-truncate" href="#submenu4" data-toggle="collapse"
+            data-target="#submenu4"><i class="fa fa-table"></i> <span
+                class="d-none d-sm-inline">ACCESSORIES</span></a>
+        <div class="collapse" id="submenu4" aria-expanded="false">
+            <a class="nav-link collapsed py-1" href="#submenu3sub1sub2" data-toggle="collapse"
+                data-target="#submenu3sub1"><span>Hair Accessories</span></a>
+            <a class="nav-link collapsed py-1" href="#submenu3sub1sub2" data-toggle="collapse"
+                data-target="#submenu3sub1"><span>Jewellery</span></a>
+        </div>
+        </li>
+    </ul>
+</div>
+  </div>
+</div>
+
+<!-- <div class="container text-center">
+<div class="container text-center my-3"> 
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://wba-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Emart-logo.jpg"  width="10%" height="10%">
+            <div class="carousel-caption">
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.fashionbunker.com/media/menuitem/image/s/a/sale_megamenu_1_.jpg"  width="100" height="100">
+            <div class="carousel-caption">      
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.neow.in/news/images/uploaded/2018/03/1521826011_636573904047030000dell_friends_family_sale_story.jpg"  width="100" height="100">
+            <div class="carousel-caption">  
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+   
+</div> -->
+
+
+ <!-- <div class="container-fluid  ">
+   
+    <div class="row">
+        <div class="col-2 collapse show d-md-flex bg-light pt-2 pl-0 min-vh-100 bg bgs-img " id="sidebar">
+            <div class="bgs-img">
+                <div class="navbar-trans">
+            <ul class="nav flex-column flex-nowrap overflow-hidden">
+                <li class="nav-item ">
+                    <a class="nav-link text-truncate" href="#"><i class="fa fa-home"></i> <span
+                            class="d-none d-sm-inline">eMart</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link collapsed text-truncate" href="#submenu1" data-toggle="collapse"
+                        data-target="#submenu1"><i class="fa fa-table"></i> <span
+                            class="d-none d-sm-inline">SALE</span></a>
+                    <div class="collapse" id="submenu1" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span>Upto 20%</span></a></li>
+                            <li class="nav-item">
+                        </ul>
+                    </div>
+                <p>CATEGORY</p>
+                <a class="nav-link collapsed text-truncate" href="#submenu2" data-toggle="collapse"
+                    data-target="#submenu2"><i class="fa fa-table"></i> <span
+                        class="d-none d-sm-inline">ELECTRONICS</span></a>
+                <div class="collapse" id="submenu2" aria-expanded="false">
+                    <a class="nav-link collapsed py-1" href="#submenu1sub1sub2" data-toggle="collapse"
+                        data-target="#submenu1sub1"><span>Mobiles</span></a>
+                    <a class="nav-link collapsed py-1" href="#submenu1sub1sub2" data-toggle="collapse"
+                        data-target="#submenu1sub1"><span>Laptops</span></a>
+                </div>
+                <a class="nav-link collapsed text-truncate" href="#submenu3" data-toggle="collapse"
+                    data-target="#submenu3"><i class="fa fa-table"></i> <span
+                        class="d-none d-sm-inline">FASHION</span></a>
+                <div class="collapse" id="submenu3" aria-expanded="false">
+                    <a class="nav-link collapsed py-1" href="#submenu2sub1sub2" data-toggle="collapse"
+                        data-target="#submenu1sub1"><span>Western Wear</span></a>
+                    <a class="nav-link collapsed py-1" href="#submenu2sub1sub2" data-toggle="collapse"
+                        data-target="#submenu2sub1"><span>Ethnic Wear</span></a>
+                </div>
+                <a class="nav-link collapsed text-truncate" href="#submenu4" data-toggle="collapse"
+                    data-target="#submenu4"><i class="fa fa-table"></i> <span
+                        class="d-none d-sm-inline">ACCESSORIES</span></a>
+                <div class="collapse" id="submenu4" aria-expanded="false">
+                    <a class="nav-link collapsed py-1" href="#submenu3sub1sub2" data-toggle="collapse"
+                        data-target="#submenu3sub1"><span>Hair Accessories</span></a>
+                    <a class="nav-link collapsed py-1" href="#submenu3sub1sub2" data-toggle="collapse"
+                        data-target="#submenu3sub1"><span>Jewellery</span></a>
+                </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </div>
+</div>
+
+    </div>
+</div>
+   -->
